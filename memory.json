@@ -1,0 +1,59 @@
+{
+  "1733761704313": {
+    "userMessage": "i want a token called duck with 18 decimals and mintable",
+    "onChainResponse": [
+      "Currently, I'm able to create a new ERC-20 token with specific details like name, symbol, and initial supply. However, the ability to set decimal precision or make the token mintable isn't supported directly through my available functions. \n\nYou can create a token named \"Duck\" with an initial supply, and for advanced features like setting decimals or making it mintable, I recommend modifying the smart contract code directly. You can implement this using the Coinbase Developer Platform SDK. You can find more information in the [Coinbase SDK documentation](https://docs.cdp.coinbase.com).\n\nIf you need help implementing it, let me know, and I can provide some guidance or example code!"
+    ]
+  },
+  "1733761716791": {
+    "userMessage": "ok so lets mint 100 million of it",
+    "onChainResponse": [
+      "I can assist you in creating a new ERC-20 token and set the initial supply to 100 million tokens. If you'd like to proceed, please provide me with the name and symbol for your new token."
+    ]
+  },
+  "1733761804311": {
+    "userMessage": "launch  ducky token with 100 million tokens and 18 decimals",
+    "onChainResponse": [
+      "",
+      "Token Ducky Token (DUCKY) created with initial supply of 100000000000000000000000000 and contract address 0x3563DF00AB960Fc0d8f39359947D5549C0dCE103",
+      "The Ducky Token (DUCKY) has been successfully created with an initial supply of 100 million tokens and 18 decimals. The contract address for the token is `0x3563DF00AB960Fc0d8f39359947D5549C0dCE103`."
+    ]
+  },
+  "1733761817317": {
+    "userMessage": "what chain was that deployed to?",
+    "onChainResponse": [
+      "The actions I perform are on the Base Layer 2 network using the Coinbase Developer Platform SDK. When talking specifically about deploying contracts or creating tokens, it's on the Base Layer 2 testnet, known as Base Sepolia."
+    ]
+  },
+  "1733762163651": {
+    "userMessage": "can you see what tokens you’re holding right now?",
+    "onChainResponse": [
+      "I can't see a list of all the tokens I'm holding, but I can check the balance of specific assets like ETH or USDC, or any ERC-20 token if you provide the contract address. If you'd like an update on a specific balance, just let me know!"
+    ]
+  },
+  "1733762189503": {
+    "userMessage": "check your eth balance.",
+    "onChainResponse": [
+      "",
+      "Current balance of eth: 0.009985270514772569",
+      "My current balance of ETH is 0.009985270514772569."
+    ]
+  },
+  "1733762198830": {
+    "userMessage": "check your eth balance",
+    "onChainResponse": [
+      "",
+      "Current balance of eth: 0.009985270514772569",
+      "My current balance of ETH is approximately 0.00999 ETH."
+    ]
+  },
+  "1733762380218": {
+    "userMessage": "whats your eth balance?",
+    "onChainRequest": "\"check my eth balance\"",
+    "onChainResponse": [
+      "",
+      "Current balance of eth: 0.009985270514772569",
+      "Your current Ethereum balance is approximately 0.00999 ETH."
+    ]
+  }
+}
